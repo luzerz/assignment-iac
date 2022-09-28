@@ -82,7 +82,7 @@ tolerations: []
 affinity: {}
 
 app_env:
-  mongo_url: "mongodb://localhost:27017"
+  mongo_url: "mongodb://mongodb.db.svc.cluster.local:27017"
   mongo_db_name: "blogs"
   mongo_collection_name: "blogs"
 
